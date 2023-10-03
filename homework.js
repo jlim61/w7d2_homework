@@ -165,7 +165,7 @@ function question2FunctionTest(aPerson) {
                         console.log(`${subfood} contains:`)
                         console.log(`${food[subfood]}`)
                     }
-                } else {console.log(`${food}, logging food`)}
+                } else {console.log(`${food}`)}
             }
         } else if (typeof aPerson[k] === "string") {
             console.log(aPerson[k])
